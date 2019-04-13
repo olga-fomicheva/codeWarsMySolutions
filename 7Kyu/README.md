@@ -1,4 +1,4 @@
-##Band name generator
+## Band name generator
 My friend wants a new band name for her band. She like bands that use the formula: "The" + a noun with the first letter capitalized, for example:
 "dolphin" -> "The Dolphin"
 
