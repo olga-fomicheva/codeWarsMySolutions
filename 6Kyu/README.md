@@ -8,7 +8,7 @@ So, you need to create a fibonacci function that given a signature array/list, r
 Signature will always contain 3 numbers; 
 n will always be a non-negative number; if n == 0, then return an empty array.
 
-##Kebabize
+## Kebabize
 Modify the kebabize function so that it converts a camel case string into a kebab case.
 Examples:
 kebabize('camelsHaveThreeHumps') // camels-have-three-humps
@@ -16,7 +16,7 @@ kebabize('camelsHave3Humps') // camels-have-humps
 Notes:
 the returned string should only contain lowercase letters
 
-##Delete occurrences of an element if it occurs more than n times
+## Delete occurrences of an element if it occurs more than n times
 Alice and Bob were on a holiday. Both of them took many pictures of the places they've been, and now they want to show Charlie their entire collection. 
 However, Charlie doesn't like this sessions, since the motive usually repeats. He isn't fond of seeing the Eiffel tower 40 times. 
 He tells them that he will only sit during the session if they show the same motive at most N times. Luckily, Alice and Bob are able to encode the motive as a number. 
@@ -29,7 +29,7 @@ Example
   delete_nth ([1,1,1,1],2) # return [1,1]
   delete_nth ([20,37,20,21],1) # return [20,37,21]
   
-##Find the missing letter
+## Find the missing letter
 Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
 
 You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.
@@ -41,7 +41,7 @@ Example:
 ['O','Q','R','S'] -> 'P'
 (Use the English alphabet with 26 letters!)
 
-##Replace With Alphabet Position
+## Replace With Alphabet Position
 Welcome.
 In this kata you are required to, given a string, replace every letter with its position in the alphabet.
 If anything in the text isn't a letter, ignore it and don't return it.
@@ -52,7 +52,7 @@ alphabet_position("The sunset sets at twelve o' clock.")
 Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11" (as a string)
 
 
-##Vasya - Clerk
+## Vasya - Clerk
 The new "Avengers" movie has just been released! There are a lot of people at the cinema box office standing in a huge line. Each of them has a single 100, 50 or 25 dollars bill. 
 An "Avengers" ticket costs 25 dollars.
 Vasya is currently working as a clerk. He wants to sell a ticket to every single person in this line.
@@ -66,7 +66,7 @@ tickets([25, 100]) # => NO. Vasya will not have enough money to give change to 1
 tickets([25, 25, 50, 50, 100]) # => NO. Vasya will not have the right bills to give 75 dollars of change (you can't make two bills of 25 from one of 50)
 
 
-##Stop gninnipS My sdroW!
+## Stop gninnipS My sdroW!
 Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). 
 Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
@@ -77,7 +77,7 @@ spinWords( "This is a test") => returns "This is a test"
 spinWords( "This is another test" )=> returns "This is rehtona test"
 
 
-##Who likes it?
+## Who likes it?
 You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. 
 We want to create the text that should be displayed next to such an item.
 
